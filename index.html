@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Comercial Buenaventura Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Color de fondo suave */
+        }
+
+        header {
+            background-color: #005b96; /* Azul profundo */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffc107; /* Amarillo dorado para los enlaces */
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            background-image: url('https://offloadmedia.feverup.com/valenciasecreta.com/wp-content/uploads/2024/02/16115749/centro-comercial-el-saler-valencia-1024x683.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #ffffff; /* Blanco para el contenido */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #005b96; /* Azul profundo */
+            color: white;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Cuadrícula responsive */
+            gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+        }
+
+        .grid-item {
+            background-color: #ffeb3b; /* Amarillo suave */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s; /* Efecto de transición para el escalado */
+        }
+
+        .grid-item img {
+            max-width: 100%; /* Asegura que las imágenes no excedan el ancho del cuadro */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05); /* Efecto de escalado al pasar el mouse */
+        }
+
+        .justificado {
+            text-align: justify; /* Justifica el texto */
+        }
+
+        h3, h2 {
+            text-align: center; /* Centra los títulos */
+            font-size: 1.5em; /* Aumenta el tamaño de la fuente */
+        }
+
+        .service-img {
+            display: block;
+            margin: 20px auto; /* Centra la imagen */
+            max-width: 600px; /* Ancho máximo para la imagen, ajustado a un tamaño más grande */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        .linea-semitransparente {
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.3); /* Línea semitrasparente */
+            margin: 20px 0; /* Espacio vertical */
+        }
+
+        .contact-info {
+            text-align: center; /* Centra la información de contacto */
+            font-weight: bold; /* Texto en negrita */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Centro Comercial Buenaventura Center</h1>
+        <nav>
+            <a href="#quienes-somos">¿Quiénes somos?</a>
+            <a href="#tiendas">Tiendas</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <h2>¡Bienvenidos al mejor centro comercial!</h2>
+    </div>
+    <section id="quienes-somos">
+        <h3>¿Quiénes somos?</h3>
+        <p class="justificado">Somos el centro comercial más grande y moderno de Buenaventura, ofreciendo una amplia variedad de tiendas y servicios para toda la familia, acercate, te esperamos para atenderte de la mejor manera.</p>
+    </section>
+    <section id="tiendas">
+        <h2>Tiendas Destacadas</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="https://elretirocentrocomercial.com/wp-content/uploads/2021/11/9T5A8643.jpg" alt="Tienda 1">
+                <p class="justificado">Superdry es una marca de moda británica que combina estilos del diseño británico y la cultura japonesa.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://plazadelasamericas.com.co/wp-content/uploads/2022/12/CHEVIGNON-1.jpeg" alt="Tienda 2">
+                <p class="justificado">Chevignon es una marca francesa famosa por su estilo urbano y su especialización en ropa de piel y cuero.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://www.megamall.com.co/fotosalmacenes/thumb_almacen-footprints-1564413350.jpg" alt="Tienda 3">
+                <p class="justificado">Adidas es una marca global de ropa y calzado deportivo, conocida por su innovación y su icónico logo de tres franjas.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://www.tecnogus.com.co/wp-content/uploads/2021/12/Claro-Tech.jpeg" alt="Tienda 4">
+                <p class="justificado">Claro es una destacada empresa de telecomunicaciones que ofrece servicios de telefonía móvil, internet y televisión.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://mercuriocentrocomercial.com/wp-content/uploads/2022/08/IMG_1927-scaled.jpg" alt="Tienda 5">
+                <p class="justificado">WOM es una operadora de telecomunicaciones en Chile que se destaca por ofrecer servicios de alta calidad a precios competitivos.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWFEdgmLpF86fRUmO4pSh5Pv8MpHvXwgYDbg&s" alt="Tienda 6">
+                <p class="justificado">Jamar: Tienda de muebles que ofrece una amplia variedad de productos de diseño moderno y funcional para el hogar.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://arkadiacentrocomercial.com/wp-content/uploads/2021/09/Cinermark.jpg" alt="Tienda 7">
+                <p class="justificado">Cinemark: Cadena de cines que proporciona una experiencia de entretenimiento con salas cómodas y películas variadas.</p>
+            </div>
+        </div>
+    </section>
+    <section id="servicios">
+        <h3>Servicios</h3>
+        <p class="justificado">Ofrecemos servicios de entretenimiento, alimentación, cine, tecnología, ropas de marca y mucho más para hacer de tu visita una experiencia inolvidable, no te lo pierdas, te esperamos en el Centro Comercial mas moderno.</p>
+        <img src="https://www.misionservir.com/wp-content/uploads/2024/06/funciones-de-servicios-generales-especialistas.jpg" alt="Imagen de Servicios" class="service-img"> <!-- Cambia la URL por la imagen deseada -->
+    </section>
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <hr class="linea-semitransparente"> <!-- Línea semitrasparente -->
+        <div class="contact-info">
+            <p>Email: contacto@buenaventuracenter.com</p>
+            <p>Teléfono: (2) 1234-5678</p>
+            <p>Dirección: Calle Ejemplo 123, Buenaventura</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Centro Comercial Buenaventura. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
